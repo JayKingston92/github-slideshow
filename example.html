@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Man Fashion</title>
+    <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+   .t2{
+        position: absolute;
+        animation: mymove 1.5s;
+        animation-timing-function: ease-in-out;
+      }
+      .t1{
+        position:absolute;
+        font-size: 40px;
+        top: 400px;
+        left: 40px;
+        color: rgb(207, 196, 196);
+        animation: mymove1 2s;
+        animation-timing-function: ease-in-out;
+      }
+      
+      @keyframes mymove{
+        from { left:-80px;}
+        to {left:0px;}
+      } 
+      @keyframes mymove1{
+        from {left:-80px;opacity: 0.5;}
+        to {left:40px;opacity:1;}
+      } 
+    </style>
+    
+</head>
+<body>
+ <div class="t2">
+     <img src="Image/sl1.jpg" alt="slide" style="height: 900px;">
+     <div class="t1">
+        <div>INFINITIV8</div> 
+        <div>Create a new wave of fashion</div>
+ </div>
+      
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

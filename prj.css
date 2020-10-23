@@ -1,0 +1,31 @@
+.carousel {
+    position:absolute;
+    top:0;    
+  }
+  .navbar {
+    position:absolute;
+    font-size: 24px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    top:30px;
+    z-index:10;
+    background: transparent;
+    opacity: 0.9;
+    width:100%;
+    border-color: transparent;
+  }
+  ol{
+    position: absolute;
+    text-align: justify;
+    top: 600px;
+    right:200px;
+  }
+  .carousel-inner item:active{
+      position: relative;
+      animation: mymove 3s;
+      animation-timing-function: ease-in-out;
+    }
+    
+    @keyframes mymove{
+      from { left:-80px; top:0px;}
+      to {left:0px; top:0px;}
+    }
